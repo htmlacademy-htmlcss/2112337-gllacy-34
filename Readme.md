@@ -1,7 +1,7 @@
 # Личный проект «Глейси»
 
 * Студент: [Дмитрий Забиров](https://up.htmlacademy.ru/htmlcss/34/user/2112337).
-* Наставник: `Наталья Зотова`(https://htmlacademy.ru/profile/id1079951).
+* Наставник: `Наталья Зотова` (https://htmlacademy.ru/profile/id1079951).
 
 ---
 
