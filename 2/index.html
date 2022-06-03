@@ -12,7 +12,7 @@
         Магазин мороженого "Глейси Шоп"
         </h1>
         <a class="logo">
-        <img class="logo" src="#" alt="Логотип магазина Глейси."> 
+        <img src="#" width="137" height="56" alt="Логотип магазина Глейси."> 
       </a>
 <nav class="navigation">
 <ul class="navigation-list">
@@ -20,23 +20,23 @@
 <a class="navigation-link" href="catalog.html">Каталог</a>
 </li>
 <li class="navigation-item">
-  <a class="navigation-link" href="delivery-payment.html">Доставка и оплата</a>
+  <a class="navigation-link" href="#">Доставка и оплата</a>
   </li>
   <li class="navigation-item">
     <a class="navigation-link" href="about.html">О компании</a>
     </li>
 </ul>
-<ul class="navigation-list-2 navigation-user">
-  <a class="navigation-link-2" href="tel:88005558628">+78005558628</a>
-  <li class="navigation-item-2">
-    <a class="navigation-link-2" href="#">
+  <a class="navigation-phone" href="tel:88005558628">+78005558628</a>
+  <ul class="navigation-user list-reset">
+    <li class="navigation-user-item">
+    <a class="navigation-user-link navigation-user-link-search" href="#">
       <span class="visually-hidden">Поиск</span></a>
     </li>
-    <li class="navigation-item-2">
-      <a class="navigation-link-2" href="#">Вход</a>
+    <li class="navigation-user-item">
+      <a class="navigation-user-link navigation-user-login" href="#">Вход</a>
       </li>
-      <li class="navigation-item-2">
-        <a class="navigation-link-2" href="#">Корзина</a>
+      <li class="navigation-user-item">
+        <a class="navigation-user-link navigation-user-link-card" href="#">2 товара</a>
         </li>
   </ul>
 </nav>
@@ -44,58 +44,73 @@
 
     <main class="main-index">
 
-    <!-- Слайдер -->
-      <section class="advantages">
-        <h2>Нежный пломбир с клубничным джемом</h2>
-        <p>Натуральное мороженое из свежих сливок
-          и молока с вкуснейшим клубничным джемом – это идеальный десерт для всей семьи. </p>
-          <a class="button button-all" href="#">Заказать</a>
-      </section>
-      <section class="gallery">
-        <h2 class="visually-hidden">Фото клубничного мороженного</h2>
-          <img class="slider-image" src="#" alt="Виды вкусов пломбиров">
-          <button class="slider-button slider-prev" type="button">
-            <span class="visually-hidden">Предыдущее фото</span>
-          </button>
-          <button class="slider-button slider-next" type="button">
-            <span class="visually-hidden">Следующее фото</span>
-          </button>
-
-          <ol class="slider-pagination">
-            <li class="slider-pagination-item">
-              <button class="slider-pagination-button slider-pagination-button-current" type="button">
-                <span class="visually-hidden">Нежный пломбир с клубничным джемом</span>
-              </button>
-            </li>
-            <li class="slider-pagination-item">
-              <button class="slider-pagination-button" type="button">
-                <span class="visually-hidden">Сливочное мороженое со вкусом банана</span>
-              </button>
-            </li>
-            <li class="slider-pagination-item">
-              <button class="slider-pagination-button" type="button">
-                <span class="visually-hidden">Карамельный пломбир с маршмеллоу</span>
-              </button>
-            </li>
-          </ol>
-      </section>
-
-      <!-- Ссылки на соц.сети -->
-      <section class="title-social-list">
-        <ul class="title-social-list">
-          <li class="title-social-item">
-            <a class="button" href="https://t.me/htmlacademy">
-            <span class="visually-hidden">Телеграм</span>
+      <section class="slider">
+        <div class="slider-container">
+          <div class="slider-description">
+            <div class="slider-item slider-item-active">
+              <h2 class="slider-title">Нежный пломбир с клубничным джемом</h2>
+              <p>Натуральное мороженое из свежих сливок и молока с вкуснейшим клубничным джемом – это идеальный десерт для всей семьи.</p>
+              <a class="button" href="#">Заказать</a>
+            </div>
+            <div class="slider-item">
+              <h2 class="slider-title">Сливочное мороженое со вкусом банана</h2>
+              <p>Сливочное мороженое с ярким банановым вкусом подарит вам свежесть и наслаждение даже в самый жаркий летний день.</p>
+              <a class="button" href="#">Заказать</a>
+            </div>
+            <div class="slider-item">
+              <h2 class="slider-title">Карамельный пломбир с маршмеллоу</h2>
+              <p>Необычный сладкий десерт с карамельным топпингом и кусочками зефира завоюет сердца сладкоежек всех возрастов.</p>
+              <a class="button" href="#">Заказать</a>
+          </div>
+        </div>
+        <div class="slider-control">
+            <div class="slider-thumbnail">
+              <div class="slider-thumbnail-item slider-thumbnail-item-active">
+                <img src="img/slider-1.png" width="66" height="150" alt="Нежный пломбир с клубничным джемом.">
+              </div>
+              <div class="slider-thumbnail-item">
+                <img src="img/slider-2.png" width="66" height="150" alt="Сливочное мороженое со вкусом банана.">
+              </div>
+              <div class="slider-thumbnail-item">
+                <img src="img/slider-3.png" width="66" height="150" alt="Карамельный пломбир с маршмеллоу.">
+              </div>
+            </div>
+            <div class="slider-navigation-arrow">
+                    <button class="slider-arrow slider-arrow-prev" type="button">
+                      <span class="visually-hidden">Предыдущий слайд</span>
+                    </button>
+                    <button class="slider-arrow slider-arrow-next" type="button">
+                      <span class="visually-hidden">Следующий слайд</span>
+                    </button>
+            </div>
+          </div>
+          <div class="slider-navigation-bullet">
+                  <button class="slider-bullet slider-bullet-active" type="button">
+                    <span class="visually-hidden">Первый слайд</span>
+                  </button>
+                  <button class="slider-bullet" type="button">
+                    <span class="visually-hidden">Второй слайд</span>
+                  </button>
+                  <button class="slider-bullet" type="button">
+                    <span class="visually-hidden">Третий слайд</span>
+                  </button>
+          </div>
+        </div>
+      
+        <ul class="slider-social social list-reset">
+          <li class="social-item">
+            <a class="social-link" href="https://t.me/htmlacademy">
+              <span class="visually-hidden">Мы в Телеграм</span>
             </a>
           </li>
-          <li class="title-social-item">
-            <a class="button" href="https://vk.com/htmlacademy">
-            <span class="visually-hidden">Вконтакте</span>
+          <li class="social-item">
+            <a class="social-link" href="https://vk.com/htmlacademy">
+              <span class="visually-hidden">Мы в Контакте</span>
             </a>
           </li>
-          <li class="title-social-item">
-            <a class="button" href="https://www.youtube.com/user/htmlacademyru">
-            <span class="visually-hidden">Ютуб</span>
+          <li class="social-item">
+            <a class="social-link" href="https://www.youtube.com/user/htmlacademyru">
+              <span class="visually-hidden">Мы на YouTybe</span>
             </a>
           </li>
         </ul>
@@ -287,16 +302,12 @@
 </li>
 </ul>
 
-<ul class="Html-academy-navigation">
-<li class="Html-academy-navigation-item">
-<a class="logo-2">
-<img class="logo-2" src="#" alt="Логотип HTML-academy">
-</a>
-</li>
-<li class="Html-academy-navigation-item">
-<p>Сделано в <a class="" href="https://up.htmlacademy.ru/">.html academy</a> © 2021</p>
-</li>
-</ul>
+<div class="footer-copyright">
+  <a class="footer-logo" href="https://htmlacademy.ru/">
+    <img src="#" width="93" height="27" alt="Логотип HTML Academy">
+  </a>
+  <p class="footer-copyright-text">Сделано в <a href="https://htmlacademy.ru/">.html academy</a> &#169; 2021</p>
+</div>
 
       </footer>
     </main>
