@@ -1345,7 +1345,7 @@ img {
 
 .promo-subscription-wrapper {
   padding: 26px 26px 28px;
-
+  height: 100%;
   background-color: #ffffff;
   border-radius: 16px;
 }
@@ -1514,7 +1514,7 @@ img {
 
 .contacts {
   padding: 64px;
-
+  background-color: #ffffff;
   background-image: url("../img/feedback.jpg");
   background-repeat: no-repeat;
   background-position: center;
